@@ -1,0 +1,1017 @@
+2026-08-14 22:02:32.460 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Starting PagatuCatalogoMsApplication using Java 26.0.2 with PID 7805 (/Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms/target/classes started by aldocallaticona in /Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms)
+2026-08-14 22:02:32.460 [] DEBUG p.e.u.c.PagatuCatalogoMsApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-14 22:02:32.460 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - The following 1 profile is active: "dev"
+2026-08-14 22:02:32.487 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Starting PagatuCatalogoMsApplication using Java 26.0.2 with PID 8897 (/Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms/target/classes started by aldocallaticona in /Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms)
+2026-08-14 22:02:32.487 [] DEBUG p.e.u.c.PagatuCatalogoMsApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-14 22:02:32.487 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - The following 1 profile is active: "dev"
+2026-08-14 22:02:32.544 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-14 22:02:32.546 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2026-08-14 22:02:32.566 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-14 22:02:32.567 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2026-08-14 22:02:32.578 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-14 22:02:32.578 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-14 22:02:32.579 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-14 22:02:32.584 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 123 ms
+2026-08-14 22:02:32.596 [] DEBUG p.e.u.c.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-14 22:02:32.607 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-14 22:02:32.608 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-14 22:02:32.608 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-14 22:02:32.611 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2026-08-14 22:02:32.612 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 124 ms
+2026-08-14 22:02:32.628 [] DEBUG p.e.u.c.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-14 22:02:32.629 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@43ae048c
+2026-08-14 22:02:32.629 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2026-08-14 22:02:32.630 [] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:15432/pagatu_catalogo_db (PostgreSQL 16.15)
+2026-08-14 22:02:32.641 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2026-08-14 22:02:32.642 [] INFO  o.f.core.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.005s)
+2026-08-14 22:02:32.653 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@356badd9
+2026-08-14 22:02:32.653 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2026-08-14 22:02:32.654 [] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:15432/pagatu_catalogo_db (PostgreSQL 16.15)
+2026-08-14 22:02:32.659 [] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2026-08-14 22:02:32.659 [] INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2026-08-14 22:02:32.663 [] INFO  o.f.core.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.002s)
+2026-08-14 22:02:32.664 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-14 22:02:32.671 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-14 22:02:32.674 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:15432/pagatu_catalogo_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.15
+	Default catalog/schema: pagatu_catalogo_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-14 22:02:32.677 [] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2026-08-14 22:02:32.677 [] INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2026-08-14 22:02:32.683 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-14 22:02:32.692 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-14 22:02:32.695 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:15432/pagatu_catalogo_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.15
+	Default catalog/schema: pagatu_catalogo_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-14 22:02:32.844 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-14 22:02:32.844 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-14 22:02:32.864 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:02:32.864 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:02:32.877 [] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-14 22:02:32.877 [] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-14 22:02:32.925 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-14 22:02:32.925 [] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2026-08-14 22:02:32.930 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-14 22:02:32.930 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-14 22:02:32.936 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-14 22:02:32.937 [] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-08-14 22:02:32.937 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:02:32.938 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2026-08-14 22:02:32.938 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Started PagatuCatalogoMsApplication in 0.542 seconds (process running for 1770.938)
+2026-08-14 22:02:32.938 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-14 22:02:32.938 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-14 22:02:32.939 [] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-08-14 22:02:32.941 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2026-08-14 22:02:32.945 [] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-08-14 22:02:32.946 [] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-08-14 22:05:09.821 [] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 4 class path changes (4 additions, 0 deletions, 0 modifications)
+2026-08-14 22:05:09.829 [] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-14 22:05:09.835 [] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-14 22:05:09.838 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:05:09.839 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2026-08-14 22:05:09.840 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2026-08-14 22:05:09.877 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Starting PagatuCatalogoMsApplication using Java 26.0.2 with PID 8897 (/Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms/target/classes started by aldocallaticona in /Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms)
+2026-08-14 22:05:09.877 [] DEBUG p.e.u.c.PagatuCatalogoMsApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-14 22:05:09.877 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - The following 1 profile is active: "dev"
+2026-08-14 22:05:09.912 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Starting PagatuCatalogoMsApplication using Java 26.0.2 with PID 7805 (/Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms/target/classes started by aldocallaticona in /Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms)
+2026-08-14 22:05:09.912 [] DEBUG p.e.u.c.PagatuCatalogoMsApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-14 22:05:09.912 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - The following 1 profile is active: "dev"
+2026-08-14 22:05:09.947 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-14 22:05:09.960 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2026-08-14 22:05:09.963 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-14 22:05:09.971 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+2026-08-14 22:05:09.997 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-14 22:05:09.998 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-14 22:05:09.998 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-14 22:05:10.002 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 123 ms
+2026-08-14 22:05:10.006 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-14 22:05:10.007 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-14 22:05:10.007 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-14 22:05:10.010 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 97 ms
+2026-08-14 22:05:10.014 [] DEBUG p.e.u.c.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-14 22:05:10.021 [] DEBUG p.e.u.c.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-14 22:05:10.027 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2026-08-14 22:05:10.031 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2026-08-14 22:05:10.038 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@6ba8d1a
+2026-08-14 22:05:10.039 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2026-08-14 22:05:10.039 [] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:15432/pagatu_catalogo_db (PostgreSQL 16.15)
+2026-08-14 22:05:10.041 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@67837802
+2026-08-14 22:05:10.042 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2026-08-14 22:05:10.042 [] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:15432/pagatu_catalogo_db (PostgreSQL 16.15)
+2026-08-14 22:05:10.051 [] INFO  o.f.core.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.005s)
+2026-08-14 22:05:10.054 [] INFO  o.f.core.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.005s)
+2026-08-14 22:05:10.067 [] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2026-08-14 22:05:10.068 [] INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2026-08-14 22:05:10.073 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-14 22:05:10.083 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-14 22:05:10.087 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:15432/pagatu_catalogo_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.15
+	Default catalog/schema: pagatu_catalogo_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-14 22:05:10.103 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-14 22:05:10.113 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:05:10.125 [] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-14 22:05:10.187 [] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-14 22:05:10.213 [] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2026-08-14 22:05:10.218 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-14 22:05:10.223 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-14 22:05:10.225 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Started PagatuCatalogoMsApplication in 0.39 seconds (process running for 535.641)
+2026-08-14 22:05:10.225 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-14 22:05:10.225 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-14 22:05:10.226 [] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-08-14 22:05:11.078 [] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2026-08-14 22:05:11.079 [] INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2026-08-14 22:05:11.102 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-14 22:05:11.119 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-14 22:05:11.127 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:15432/pagatu_catalogo_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.15
+	Default catalog/schema: pagatu_catalogo_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-14 22:05:11.154 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-14 22:05:11.167 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:05:11.187 [] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-14 22:05:11.244 [] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-14 22:05:11.262 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-14 22:05:11.266 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-14 22:05:11.272 [] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-08-14 22:05:11.272 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:05:11.272 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2026-08-14 22:05:11.273 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2026-08-14 22:05:11.274 [] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-08-14 22:05:11.275 [] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-08-14 22:07:18.897 [] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (3 additions, 0 deletions, 0 modifications)
+2026-08-14 22:07:18.905 [] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-14 22:07:18.909 [] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-14 22:07:18.912 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:07:18.914 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2026-08-14 22:07:18.922 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2026-08-14 22:07:18.945 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Starting PagatuCatalogoMsApplication using Java 26.0.2 with PID 7805 (/Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms/target/classes started by aldocallaticona in /Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms)
+2026-08-14 22:07:18.945 [] DEBUG p.e.u.c.PagatuCatalogoMsApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-14 22:07:18.945 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - The following 1 profile is active: "dev"
+2026-08-14 22:07:18.985 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Starting PagatuCatalogoMsApplication using Java 26.0.2 with PID 8897 (/Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms/target/classes started by aldocallaticona in /Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms)
+2026-08-14 22:07:18.985 [] DEBUG p.e.u.c.PagatuCatalogoMsApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-14 22:07:18.985 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - The following 1 profile is active: "dev"
+2026-08-14 22:07:19.028 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-14 22:07:19.031 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
+2026-08-14 22:07:19.045 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-14 22:07:19.047 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
+2026-08-14 22:07:19.064 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-14 22:07:19.065 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-14 22:07:19.065 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-14 22:07:19.070 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 123 ms
+2026-08-14 22:07:19.079 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-14 22:07:19.080 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-14 22:07:19.080 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-14 22:07:19.082 [] DEBUG p.e.u.c.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-14 22:07:19.083 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 97 ms
+2026-08-14 22:07:19.092 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2026-08-14 22:07:19.095 [] DEBUG p.e.u.c.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-14 22:07:19.108 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2026-08-14 22:07:19.112 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@6fb46597
+2026-08-14 22:07:19.112 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2026-08-14 22:07:19.113 [] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:15432/pagatu_catalogo_db (PostgreSQL 16.15)
+2026-08-14 22:07:19.119 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@4236e3f
+2026-08-14 22:07:19.120 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2026-08-14 22:07:19.120 [] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:15432/pagatu_catalogo_db (PostgreSQL 16.15)
+2026-08-14 22:07:19.122 [] INFO  o.f.core.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.003s)
+2026-08-14 22:07:19.128 [] INFO  o.f.core.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.002s)
+2026-08-14 22:07:19.135 [] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2026-08-14 22:07:19.135 [] INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2026-08-14 22:07:19.140 [] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2026-08-14 22:07:19.140 [] INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2026-08-14 22:07:19.141 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-14 22:07:19.146 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-14 22:07:19.147 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-14 22:07:19.149 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:15432/pagatu_catalogo_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.15
+	Default catalog/schema: pagatu_catalogo_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-14 22:07:19.152 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-14 22:07:19.155 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:15432/pagatu_catalogo_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.15
+	Default catalog/schema: pagatu_catalogo_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-14 22:07:19.162 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-14 22:07:19.168 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:07:19.169 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-14 22:07:19.173 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:07:19.190 [] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-14 22:07:19.194 [] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-14 22:07:19.237 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-14 22:07:19.237 [] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2026-08-14 22:07:19.242 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-14 22:07:19.242 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-14 22:07:19.247 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-14 22:07:19.247 [] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-08-14 22:07:19.248 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:07:19.248 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2026-08-14 22:07:19.248 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Started PagatuCatalogoMsApplication in 0.342 seconds (process running for 2057.249)
+2026-08-14 22:07:19.249 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-14 22:07:19.249 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-14 22:07:19.249 [] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-08-14 22:07:19.270 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2026-08-14 22:07:19.272 [] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-08-14 22:07:19.272 [] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-08-14 22:07:52.953 [] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-08-14 22:07:52.959 [] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-14 22:07:52.966 [] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-14 22:07:52.970 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:07:52.971 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2026-08-14 22:07:52.972 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2026-08-14 22:07:53.023 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Starting PagatuCatalogoMsApplication using Java 26.0.2 with PID 8897 (/Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms/target/classes started by aldocallaticona in /Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms)
+2026-08-14 22:07:53.023 [] DEBUG p.e.u.c.PagatuCatalogoMsApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-14 22:07:53.023 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - The following 1 profile is active: "dev"
+2026-08-14 22:07:53.024 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Starting PagatuCatalogoMsApplication using Java 26.0.2 with PID 7805 (/Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms/target/classes started by aldocallaticona in /Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms)
+2026-08-14 22:07:53.024 [] DEBUG p.e.u.c.PagatuCatalogoMsApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-14 22:07:53.024 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - The following 1 profile is active: "dev"
+2026-08-14 22:07:53.080 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-14 22:07:53.082 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-14 22:07:53.083 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
+2026-08-14 22:07:53.085 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2026-08-14 22:07:53.121 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-14 22:07:53.121 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-14 22:07:53.121 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-14 22:07:53.122 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-14 22:07:53.122 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-14 22:07:53.122 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-14 22:07:53.124 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 100 ms
+2026-08-14 22:07:53.125 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 101 ms
+2026-08-14 22:07:53.135 [] DEBUG p.e.u.c.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-14 22:07:53.136 [] DEBUG p.e.u.c.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-14 22:07:53.145 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2026-08-14 22:07:53.147 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2026-08-14 22:07:53.160 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection org.postgresql.jdbc.PgConnection@1627d78
+2026-08-14 22:07:53.160 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+2026-08-14 22:07:53.160 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@7c3d93cb
+2026-08-14 22:07:53.160 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2026-08-14 22:07:53.160 [] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:15432/pagatu_catalogo_db (PostgreSQL 16.15)
+2026-08-14 22:07:53.161 [] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:15432/pagatu_catalogo_db (PostgreSQL 16.15)
+2026-08-14 22:07:53.171 [] INFO  o.f.core.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.005s)
+2026-08-14 22:07:53.171 [] INFO  o.f.core.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.005s)
+2026-08-14 22:07:53.187 [] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2026-08-14 22:07:53.187 [] INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2026-08-14 22:07:53.193 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-14 22:07:53.198 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-14 22:07:53.202 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:15432/pagatu_catalogo_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.15
+	Default catalog/schema: pagatu_catalogo_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-14 22:07:53.212 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-14 22:07:53.221 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:07:53.242 [] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-14 22:07:53.282 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-14 22:07:53.287 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-14 22:07:53.292 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-14 22:07:53.293 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Started PagatuCatalogoMsApplication in 0.279 seconds (process running for 2091.293)
+2026-08-14 22:07:53.293 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-14 22:07:53.293 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-14 22:07:53.294 [] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-08-14 22:07:54.197 [] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2026-08-14 22:07:54.198 [] INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2026-08-14 22:07:54.219 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-14 22:07:54.235 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-14 22:07:54.243 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:15432/pagatu_catalogo_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.15
+	Default catalog/schema: pagatu_catalogo_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-14 22:07:54.265 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-14 22:07:54.279 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:07:54.311 [] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-14 22:07:54.356 [] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2026-08-14 22:07:54.360 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-14 22:07:54.365 [] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-08-14 22:07:54.365 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:07:54.366 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2026-08-14 22:07:54.366 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2026-08-14 22:07:54.367 [] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-08-14 22:07:54.368 [] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-08-14 22:08:31.058 [] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2026-08-14 22:08:31.064 [] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-14 22:08:31.066 [] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-14 22:08:31.069 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:08:31.069 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2026-08-14 22:08:31.070 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+2026-08-14 22:08:31.124 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Starting PagatuCatalogoMsApplication using Java 26.0.2 with PID 7805 (/Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms/target/classes started by aldocallaticona in /Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms)
+2026-08-14 22:08:31.124 [] DEBUG p.e.u.c.PagatuCatalogoMsApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-14 22:08:31.124 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - The following 1 profile is active: "dev"
+2026-08-14 22:08:31.136 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Starting PagatuCatalogoMsApplication using Java 26.0.2 with PID 8897 (/Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms/target/classes started by aldocallaticona in /Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms)
+2026-08-14 22:08:31.136 [] DEBUG p.e.u.c.PagatuCatalogoMsApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-14 22:08:31.136 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - The following 1 profile is active: "dev"
+2026-08-14 22:08:31.184 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-14 22:08:31.186 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
+2026-08-14 22:08:31.188 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-14 22:08:31.190 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2026-08-14 22:08:31.220 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-14 22:08:31.221 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-14 22:08:31.221 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-14 22:08:31.226 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 101 ms
+2026-08-14 22:08:31.227 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-14 22:08:31.227 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-14 22:08:31.227 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-14 22:08:31.231 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 94 ms
+2026-08-14 22:08:31.238 [] DEBUG p.e.u.c.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-14 22:08:31.244 [] DEBUG p.e.u.c.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-14 22:08:31.249 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+2026-08-14 22:08:31.255 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2026-08-14 22:08:31.262 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@50980363
+2026-08-14 22:08:31.262 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+2026-08-14 22:08:31.262 [] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:15432/pagatu_catalogo_db (PostgreSQL 16.15)
+2026-08-14 22:08:31.266 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@1e42cd32
+2026-08-14 22:08:31.266 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2026-08-14 22:08:31.267 [] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:15432/pagatu_catalogo_db (PostgreSQL 16.15)
+2026-08-14 22:08:31.271 [] INFO  o.f.core.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.003s)
+2026-08-14 22:08:31.275 [] INFO  o.f.core.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.002s)
+2026-08-14 22:08:31.286 [] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2026-08-14 22:08:31.286 [] INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2026-08-14 22:08:31.289 [] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2026-08-14 22:08:31.289 [] INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2026-08-14 22:08:31.292 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-14 22:08:31.294 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-14 22:08:31.299 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-14 22:08:31.300 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-14 22:08:31.303 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:15432/pagatu_catalogo_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.15
+	Default catalog/schema: pagatu_catalogo_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-14 22:08:31.304 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:15432/pagatu_catalogo_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.15
+	Default catalog/schema: pagatu_catalogo_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-14 22:08:31.329 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-14 22:08:31.330 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-14 22:08:31.340 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:08:31.340 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:08:31.360 [] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-14 22:08:31.360 [] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-14 22:08:31.401 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-14 22:08:31.403 [] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2026-08-14 22:08:31.406 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-14 22:08:31.408 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-14 22:08:31.411 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-14 22:08:31.413 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Started PagatuCatalogoMsApplication in 0.298 seconds (process running for 2129.413)
+2026-08-14 22:08:31.413 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-14 22:08:31.413 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-14 22:08:31.413 [] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-08-14 22:08:31.413 [] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-08-14 22:08:31.413 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:08:31.414 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2026-08-14 22:08:31.416 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2026-08-14 22:08:31.417 [] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-08-14 22:08:31.417 [] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-08-14 22:13:19.635 [] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 7 class path changes (7 additions, 0 deletions, 0 modifications)
+2026-08-14 22:13:19.638 [] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-14 22:13:19.640 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Starting PagatuCatalogoMsApplication using Java 26.0.2 with PID 8897 (/Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms/target/classes started by aldocallaticona in /Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms)
+2026-08-14 22:13:19.640 [] DEBUG p.e.u.c.PagatuCatalogoMsApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-14 22:13:19.640 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - The following 1 profile is active: "dev"
+2026-08-14 22:13:19.642 [] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-14 22:13:19.644 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:13:19.646 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+2026-08-14 22:13:19.647 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+2026-08-14 22:13:19.703 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Starting PagatuCatalogoMsApplication using Java 26.0.2 with PID 7805 (/Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms/target/classes started by aldocallaticona in /Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms)
+2026-08-14 22:13:19.703 [] DEBUG p.e.u.c.PagatuCatalogoMsApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-14 22:13:19.703 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - The following 1 profile is active: "dev"
+2026-08-14 22:13:19.743 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-14 22:13:19.751 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 2 JPA repository interfaces.
+2026-08-14 22:13:19.782 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-14 22:13:19.785 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 2 JPA repository interfaces.
+2026-08-14 22:13:19.788 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-14 22:13:19.789 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-14 22:13:19.789 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-14 22:13:19.792 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 150 ms
+2026-08-14 22:13:19.805 [] DEBUG p.e.u.c.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-14 22:13:19.817 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2026-08-14 22:13:19.825 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-14 22:13:19.826 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-14 22:13:19.826 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-14 22:13:19.829 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 126 ms
+2026-08-14 22:13:19.830 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection org.postgresql.jdbc.PgConnection@1694b18b
+2026-08-14 22:13:19.830 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+2026-08-14 22:13:19.831 [] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:15432/pagatu_catalogo_db (PostgreSQL 16.15)
+2026-08-14 22:13:19.840 [] INFO  o.f.core.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.003s)
+2026-08-14 22:13:19.843 [] DEBUG p.e.u.c.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-14 22:13:19.854 [] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2026-08-14 22:13:19.854 [] INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2026-08-14 22:13:19.857 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Starting...
+2026-08-14 22:13:19.861 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-14 22:13:19.868 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-14 22:13:19.869 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Added connection org.postgresql.jdbc.PgConnection@11605282
+2026-08-14 22:13:19.869 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Start completed.
+2026-08-14 22:13:19.870 [] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:15432/pagatu_catalogo_db (PostgreSQL 16.15)
+2026-08-14 22:13:19.874 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:15432/pagatu_catalogo_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.15
+	Default catalog/schema: pagatu_catalogo_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-14 22:13:19.877 [] INFO  o.f.core.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.001s)
+2026-08-14 22:13:19.890 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-14 22:13:19.890 [] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2026-08-14 22:13:19.890 [] INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2026-08-14 22:13:19.895 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:13:19.896 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-14 22:13:19.902 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-14 22:13:19.906 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:15432/pagatu_catalogo_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.15
+	Default catalog/schema: pagatu_catalogo_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-14 22:13:19.922 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-14 22:13:19.926 [] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-14 22:13:19.927 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:13:19.954 [] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-14 22:13:19.979 [] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2026-08-14 22:13:19.985 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-14 22:13:19.991 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-14 22:13:19.992 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Started PagatuCatalogoMsApplication in 0.379 seconds (process running for 1025.41)
+2026-08-14 22:13:19.993 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-14 22:13:19.993 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-14 22:13:19.993 [] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-08-14 22:13:20.006 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-14 22:13:20.012 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-14 22:13:20.017 [] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-08-14 22:13:20.018 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:13:20.018 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown initiated...
+2026-08-14 22:13:20.063 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown completed.
+2026-08-14 22:13:20.068 [] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-08-14 22:13:20.070 [] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-08-14 22:17:18.925 [] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-08-14 22:17:18.933 [] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-14 22:17:18.936 [] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-14 22:17:18.940 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:17:18.941 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2026-08-14 22:17:18.942 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+2026-08-14 22:17:18.998 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Starting PagatuCatalogoMsApplication using Java 26.0.2 with PID 7805 (/Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms/target/classes started by aldocallaticona in /Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms)
+2026-08-14 22:17:18.999 [] DEBUG p.e.u.c.PagatuCatalogoMsApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-14 22:17:18.999 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - The following 1 profile is active: "dev"
+2026-08-14 22:17:19.018 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Starting PagatuCatalogoMsApplication using Java 26.0.2 with PID 8897 (/Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms/target/classes started by aldocallaticona in /Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms)
+2026-08-14 22:17:19.018 [] DEBUG p.e.u.c.PagatuCatalogoMsApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-14 22:17:19.018 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - The following 1 profile is active: "dev"
+2026-08-14 22:17:19.069 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-14 22:17:19.072 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 2 JPA repository interfaces.
+2026-08-14 22:17:19.075 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-14 22:17:19.078 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 2 JPA repository interfaces.
+2026-08-14 22:17:19.103 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-14 22:17:19.103 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-14 22:17:19.103 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-14 22:17:19.106 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 107 ms
+2026-08-14 22:17:19.115 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-14 22:17:19.115 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-14 22:17:19.115 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-14 22:17:19.117 [] DEBUG p.e.u.c.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-14 22:17:19.118 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 99 ms
+2026-08-14 22:17:19.126 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Starting...
+2026-08-14 22:17:19.131 [] DEBUG p.e.u.c.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-14 22:17:19.143 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Added connection org.postgresql.jdbc.PgConnection@1f6b3a2d
+2026-08-14 22:17:19.143 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Start completed.
+2026-08-14 22:17:19.144 [] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:15432/pagatu_catalogo_db (PostgreSQL 16.15)
+2026-08-14 22:17:19.147 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+2026-08-14 22:17:19.154 [] INFO  o.f.core.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.004s)
+2026-08-14 22:17:19.161 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@3e491b78
+2026-08-14 22:17:19.161 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+2026-08-14 22:17:19.162 [] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:15432/pagatu_catalogo_db (PostgreSQL 16.15)
+2026-08-14 22:17:19.169 [] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2026-08-14 22:17:19.169 [] INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2026-08-14 22:17:19.169 [] INFO  o.f.core.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.002s)
+2026-08-14 22:17:19.175 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-14 22:17:19.180 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-14 22:17:19.185 [] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2026-08-14 22:17:19.185 [] INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2026-08-14 22:17:19.185 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:15432/pagatu_catalogo_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.15
+	Default catalog/schema: pagatu_catalogo_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-14 22:17:19.191 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-14 22:17:19.197 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-14 22:17:19.199 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-14 22:17:19.202 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:15432/pagatu_catalogo_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.15
+	Default catalog/schema: pagatu_catalogo_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-14 22:17:19.206 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:17:19.216 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-14 22:17:19.221 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:17:19.229 [] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-14 22:17:19.248 [] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-14 22:17:19.273 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-14 22:17:19.278 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-14 22:17:19.283 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-14 22:17:19.284 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Started PagatuCatalogoMsApplication in 0.305 seconds (process running for 2657.281)
+2026-08-14 22:17:19.285 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-14 22:17:19.285 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-14 22:17:19.285 [] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-08-14 22:17:19.298 [] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2026-08-14 22:17:19.304 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-14 22:17:19.310 [] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-08-14 22:17:19.310 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:17:19.310 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+2026-08-14 22:17:19.312 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+2026-08-14 22:17:19.314 [] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-08-14 22:17:19.314 [] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-08-14 22:18:46.185 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Starting PagatuCatalogoMsApplication using Java 26.0.2 with PID 9971 (/Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms/target/classes started by aldocallaticona in /Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms)
+2026-08-14 22:18:46.186 [] DEBUG p.e.u.c.PagatuCatalogoMsApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-14 22:18:46.186 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - The following 1 profile is active: "dev"
+2026-08-14 22:18:46.200 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-08-14 22:18:46.200 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-08-14 22:18:46.449 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-14 22:18:46.463 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 2 JPA repository interfaces.
+2026-08-14 22:18:46.570 [] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 23 class path changes (0 additions, 0 deletions, 23 modifications)
+2026-08-14 22:18:46.571 [] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-14 22:18:46.572 [] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-14 22:18:46.579 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:18:46.580 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown initiated...
+2026-08-14 22:18:46.582 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown completed.
+2026-08-14 22:18:46.586 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Starting PagatuCatalogoMsApplication using Java 26.0.2 with PID 8897 (/Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms/target/classes started by aldocallaticona in /Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms)
+2026-08-14 22:18:46.586 [] DEBUG p.e.u.c.PagatuCatalogoMsApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-14 22:18:46.586 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - The following 1 profile is active: "dev"
+2026-08-14 22:18:46.623 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Starting PagatuCatalogoMsApplication using Java 26.0.2 with PID 7805 (/Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms/target/classes started by aldocallaticona in /Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms)
+2026-08-14 22:18:46.623 [] DEBUG p.e.u.c.PagatuCatalogoMsApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-14 22:18:46.623 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - The following 1 profile is active: "dev"
+2026-08-14 22:18:46.632 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-14 22:18:46.637 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-14 22:18:46.637 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-14 22:18:46.644 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-14 22:18:46.647 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 2 JPA repository interfaces.
+2026-08-14 22:18:46.649 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 449 ms
+2026-08-14 22:18:46.675 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-14 22:18:46.677 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 2 JPA repository interfaces.
+2026-08-14 22:18:46.682 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-14 22:18:46.682 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-14 22:18:46.682 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-14 22:18:46.685 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 98 ms
+2026-08-14 22:18:46.691 [] DEBUG p.e.u.c.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-14 22:18:46.697 [] DEBUG p.e.u.c.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-14 22:18:46.707 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Starting...
+2026-08-14 22:18:46.715 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-14 22:18:46.715 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-14 22:18:46.715 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-14 22:18:46.718 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 94 ms
+2026-08-14 22:18:46.719 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Added connection org.postgresql.jdbc.PgConnection@3d84419
+2026-08-14 22:18:46.719 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Start completed.
+2026-08-14 22:18:46.720 [] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:15432/pagatu_catalogo_db (PostgreSQL 16.15)
+2026-08-14 22:18:46.727 [] INFO  o.f.core.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.002s)
+2026-08-14 22:18:46.729 [] DEBUG p.e.u.c.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-14 22:18:46.742 [] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2026-08-14 22:18:46.742 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Starting...
+2026-08-14 22:18:46.742 [] INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2026-08-14 22:18:46.748 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-14 22:18:46.751 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Added connection org.postgresql.jdbc.PgConnection@7a8cd5f7
+2026-08-14 22:18:46.751 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Start completed.
+2026-08-14 22:18:46.752 [] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:15432/pagatu_catalogo_db (PostgreSQL 16.15)
+2026-08-14 22:18:46.753 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-14 22:18:46.755 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:15432/pagatu_catalogo_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.15
+	Default catalog/schema: pagatu_catalogo_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-14 22:18:46.759 [] INFO  o.f.core.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.002s)
+2026-08-14 22:18:46.767 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-08-14 22:18:46.770 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-14 22:18:46.774 [] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2026-08-14 22:18:46.774 [] INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2026-08-14 22:18:46.775 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:18:46.779 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-14 22:18:46.784 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-14 22:18:46.787 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:15432/pagatu_catalogo_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.15
+	Default catalog/schema: pagatu_catalogo_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-14 22:18:46.798 [] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-14 22:18:46.800 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-14 22:18:46.807 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:18:46.824 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@50f078fc
+2026-08-14 22:18:46.825 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-08-14 22:18:46.832 [] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-14 22:18:46.835 [] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:15432/pagatu_catalogo_db (PostgreSQL 16.15)
+2026-08-14 22:18:46.854 [] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2026-08-14 22:18:46.859 [] INFO  o.f.core.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.010s)
+2026-08-14 22:18:46.860 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-14 22:18:46.866 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-14 22:18:46.867 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Started PagatuCatalogoMsApplication in 0.296 seconds (process running for 1352.28)
+2026-08-14 22:18:46.867 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-14 22:18:46.867 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-14 22:18:46.868 [] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-08-14 22:18:46.875 [] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2026-08-14 22:18:46.876 [] INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2026-08-14 22:18:46.880 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-14 22:18:46.885 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-14 22:18:46.890 [] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-08-14 22:18:46.891 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:18:46.891 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown initiated...
+2026-08-14 22:18:46.895 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown completed.
+2026-08-14 22:18:46.896 [] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-08-14 22:18:46.897 [] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-08-14 22:18:46.908 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-14 22:18:46.925 [] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.19.Final
+2026-08-14 22:18:47.042 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-14 22:18:47.071 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:15432/pagatu_catalogo_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.15
+	Default catalog/schema: pagatu_catalogo_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-14 22:18:47.316 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-14 22:18:47.336 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:18:47.359 [] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-14 22:18:47.415 [] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-14 22:18:47.543 [] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2026-08-14 22:18:47.559 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-14 22:18:47.575 [] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-08-14 22:18:47.576 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:18:47.577 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-08-14 22:18:47.578 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-08-14 22:18:47.582 [] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-08-14 22:18:47.585 [] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-08-14 22:19:31.915 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Starting PagatuCatalogoMsApplication using Java 26.0.2 with PID 10120 (/Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms/target/classes started by aldocallaticona in /Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms)
+2026-08-14 22:19:31.916 [] DEBUG p.e.u.c.PagatuCatalogoMsApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-14 22:19:31.916 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - The following 1 profile is active: "dev"
+2026-08-14 22:19:31.928 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-08-14 22:19:31.928 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-08-14 22:19:32.170 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-14 22:19:32.185 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 2 JPA repository interfaces.
+2026-08-14 22:19:32.336 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-14 22:19:32.340 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-14 22:19:32.340 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-14 22:19:32.350 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 422 ms
+2026-08-14 22:19:32.385 [] DEBUG p.e.u.c.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-14 22:19:32.449 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-08-14 22:19:32.505 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7ad246dd
+2026-08-14 22:19:32.505 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-08-14 22:19:32.514 [] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:15432/pagatu_catalogo_db (PostgreSQL 16.15)
+2026-08-14 22:19:32.532 [] INFO  o.f.core.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.007s)
+2026-08-14 22:19:32.555 [] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2026-08-14 22:19:32.556 [] INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2026-08-14 22:19:32.585 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-14 22:19:32.601 [] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.19.Final
+2026-08-14 22:19:32.713 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-14 22:19:32.743 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:15432/pagatu_catalogo_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.15
+	Default catalog/schema: pagatu_catalogo_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-14 22:19:32.988 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-14 22:19:33.007 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:19:33.030 [] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-14 22:19:33.087 [] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-14 22:19:33.215 [] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2026-08-14 22:19:33.230 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-14 22:19:33.246 [] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-08-14 22:19:33.247 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:19:33.248 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-08-14 22:19:33.249 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-08-14 22:19:33.253 [] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-08-14 22:19:33.257 [] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-08-14 22:20:18.226 [] INFO  o.a.c.c.C.[Tomcat-5].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-14 22:20:18.226 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-14 22:20:18.227 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-08-14 22:20:18.351 [6edb9d2a-c561-48d6-95ac-1fefec8a317d] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 52 ms
+2026-08-14 22:23:53.441 [d87eeadc-51ed-4833-bfc5-01ef428652c4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [pe.edu.upeu.catalogo.exception.ResourceNotFoundException: Categoria no encontrada: 1]
+2026-08-14 22:24:16.799 [8f33b4b9-7b39-4589-9708-7838a49f6046] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [pe.edu.upeu.catalogo.exception.ResourceNotFoundException: Producto no encontrado: 1]
+2026-08-14 22:24:29.011 [d7f5e51b-6a3d-4c5d-ad8d-2a4ca1a267aa] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [pe.edu.upeu.catalogo.exception.ResourceNotFoundException: Producto no encontrado: 1]
+2026-08-14 22:26:45.179 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Starting PagatuCatalogoMsApplication using Java 26.0.2 with PID 10583 (/Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms/target/classes started by aldocallaticona in /Users/aldocallaticona/Pagatu/Services/pagatu-catalogo-ms)
+2026-08-14 22:26:45.180 [] DEBUG p.e.u.c.PagatuCatalogoMsApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-14 22:26:45.180 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - The following 1 profile is active: "dev"
+2026-08-14 22:26:45.194 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-08-14 22:26:45.194 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-08-14 22:26:45.440 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-14 22:26:45.453 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 2 JPA repository interfaces.
+2026-08-14 22:26:45.614 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-08-14 22:26:45.621 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-14 22:26:45.622 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-14 22:26:45.634 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 440 ms
+2026-08-14 22:26:45.669 [] DEBUG p.e.u.c.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-14 22:26:45.732 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-08-14 22:26:45.787 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7f54d2b1
+2026-08-14 22:26:45.787 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-08-14 22:26:45.796 [] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:15432/pagatu_catalogo_db (PostgreSQL 16.15)
+2026-08-14 22:26:45.816 [] INFO  o.f.core.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.007s)
+2026-08-14 22:26:45.839 [] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2026-08-14 22:26:45.840 [] INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2026-08-14 22:26:45.871 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-14 22:26:45.887 [] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.19.Final
+2026-08-14 22:26:46.001 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-14 22:26:46.033 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:15432/pagatu_catalogo_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.15
+	Default catalog/schema: pagatu_catalogo_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-14 22:26:46.277 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-14 22:26:46.298 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:26:46.321 [] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-14 22:26:46.376 [] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-14 22:26:46.504 [] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2026-08-14 22:26:46.519 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-14 22:26:46.538 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-08-14 22:26:46.541 [] INFO  p.e.u.c.PagatuCatalogoMsApplication - Started PagatuCatalogoMsApplication in 1.507 seconds (process running for 1.636)
+2026-08-14 22:26:46.562 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-14 22:26:46.562 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-14 22:27:30.303 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-14 22:27:30.303 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-14 22:27:30.305 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-08-14 22:30:12.377 [] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-9 - Failed to validate connection org.postgresql.jdbc.PgConnection@279883d6 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-14 22:30:13.768 [] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-14 22:30:13.779 [] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-14 22:30:13.785 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:30:13.788 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-08-14 22:30:13.789 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-08-14 22:30:17.392 [] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-9 - Failed to validate connection org.postgresql.jdbc.PgConnection@5d292aba (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-14 22:30:18.912 [] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-14 22:30:18.924 [] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-14 22:30:18.927 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-14 22:30:18.928 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown initiated...
+2026-08-14 22:30:48.954 [] WARN  com.zaxxer.hikari.pool.HikariPool - Timed-out waiting for add connection executor to shutdown
+2026-08-14 22:30:48.955 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown completed.
