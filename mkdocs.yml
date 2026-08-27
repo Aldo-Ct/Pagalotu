@@ -1,0 +1,6 @@
+site_name: Pagatu
+nav:
+  - S01 - Construcción de un servicio base: S01_Construccion_Servicio_Base.md
+
+theme:
+  name: mkdocs

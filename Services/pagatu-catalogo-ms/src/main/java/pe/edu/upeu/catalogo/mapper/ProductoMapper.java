@@ -3,10 +3,14 @@ package pe.edu.upeu.catalogo.mapper;
 import pe.edu.upeu.catalogo.dto.ProductoRequest;
 import pe.edu.upeu.catalogo.dto.ProductoResponse;
 import pe.edu.upeu.catalogo.entity.Producto;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
 @Component
+@RequiredArgsConstructor
 public class ProductoMapper {
+
+    private final CategoriaMapper categoriaMapper;
 
     public Producto toEntity(ProductoRequest request) {
         return Producto.builder()
@@ -24,7 +28,7 @@ public class ProductoMapper {
                 .descripcion(producto.getDescripcion())
                 .precio(producto.getPrecio())
                 .activo(producto.getActivo())
-                .categoriaId(producto.getCategoria().getId())
+                .categoria(categoriaMapper.toResponse(producto.getCategoria()))
                 .build();
     }
 }
