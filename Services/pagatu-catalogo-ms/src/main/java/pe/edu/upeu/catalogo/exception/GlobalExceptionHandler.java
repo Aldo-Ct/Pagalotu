@@ -1,5 +1,7 @@
 package pe.edu.upeu.catalogo.exception;
 
+import io.micrometer.core.instrument.MeterRegistry;
+import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
@@ -11,10 +13,20 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestControllerAdvice
+@RequiredArgsConstructor
 public class GlobalExceptionHandler {
+
+    private final MeterRegistry meterRegistry;
 
     @ExceptionHandler(ResourceNotFoundException.class)
     public ResponseEntity<Map<String, Object>> handleNotFound(ResourceNotFoundException ex) {
+        String recurso = ex.getMessage().split(" ")[0].toLowerCase();
+        meterRegistry.counter(
+                "pagatu_recursos_no_encontrados_total",
+                "recurso",
+                recurso
+        ).increment();
+
         Map<String, Object> body = new HashMap<>();
         body.put("timestamp", Instant.now().toString());
         body.put("status", HttpStatus.NOT_FOUND.value());

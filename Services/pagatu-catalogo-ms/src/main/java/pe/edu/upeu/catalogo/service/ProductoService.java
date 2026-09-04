@@ -1,5 +1,6 @@
 package pe.edu.upeu.catalogo.service;
 
+import io.micrometer.core.instrument.MeterRegistry;
 import pe.edu.upeu.catalogo.dto.ProductoRequest;
 import pe.edu.upeu.catalogo.dto.ProductoResponse;
 import pe.edu.upeu.catalogo.entity.Categoria;
@@ -20,6 +21,7 @@ public class ProductoService {
     private final ProductoRepository productoRepository;
     private final ProductoMapper productoMapper;
     private final CategoriaRepository categoriaRepository;
+    private final MeterRegistry meterRegistry;
 
     public List<ProductoResponse> listar() {
         return productoRepository.findAllConCategoria().stream()
@@ -34,7 +36,9 @@ public class ProductoService {
     public ProductoResponse crear(ProductoRequest request) {
         Producto producto = productoMapper.toEntity(request);
         producto.setCategoria(buscarCategoriaOFallar(request.getCategoriaId()));
-        return productoMapper.toResponse(productoRepository.save(producto));
+        ProductoResponse response = productoMapper.toResponse(productoRepository.save(producto));
+        meterRegistry.counter("pagatu_productos_creados_total").increment();
+        return response;
     }
 
     public ProductoResponse actualizar(Long id, ProductoRequest request) {
